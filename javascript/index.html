@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi primer javascript</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<div>
+	<h1>Apagar y encender bombillo</h1>
+	<button type="button" onclick="document.getElementById('image').src='archivos/imagenes/on.gif'">Encender</button>
+	<img id="image" src="archivos/imagenes/off.gif">
+
+	<button type="button" onclick="document.getElementById('image').src='archivos/imagenes/off.gif'">Apagar</button>
+</div>
+<hr>
+<div>
+	<h1>Cambio de tamaño de letras</h1>
+	<p id="texto">  texto que cambia de tamaño</p>
+
+	<button type="button" onclick="document.getElementById('texto').style.fontSize='50px'">cambiar tamaño</button>
+	<button onclick="document.getElementById('texto').style.fontSize='16px'">tamaño re</button>
+</div>
+
+<hr>
+<div>
+	<h1>Ocultando</h1>
+	<p id="ocultar">
+		Parrafo a ocultar
+	</p>
+	<button type="button" onclick="document.getElementById('ocultar').style.display='none'">ocultar</button>
+	<button type="button" onclick="document.getElementById('ocultar').style.display='block'">mostrar</button>
+</div>
+
+</body>
+</html>
